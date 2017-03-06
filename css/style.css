@@ -1,0 +1,640 @@
+img{ max-width: 100%;
+		height: auto; 
+		display: block; }
+
+
+html {
+box-sizing: border-box;
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+body {background: -webkit-radial-gradient(#5fb3f3, #02577c);}
+
+
+li {
+
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color: white
+}
+
+
+p {
+text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color: white;}
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+margin-top: 50px;
+}
+
+
+h2{
+text-align: center;
+background-color: lightblue;
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+color: white;}
+
+h3 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: white;}
+
+video {  
+   width:100%; 
+   max-width:650px; 
+   height:auto;
+
+}
+
+
+.audio {
+	text-align: center;
+}
+
+.video-player {}
+
+
+	.video1 {
+	 
+		width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkgrey;
+	}
+
+	.video2 {
+		width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkgrey;
+	}
+	.video3 {width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkgrey;}
+
+	.video4 {width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkgrey;}
+
+.image-gallery {
+	
+	}
+
+	.image1 {
+	 	width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkblue;
+	}
+
+	.image2 {
+		width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkblue;
+	}
+
+	.image3 {width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkblue;}
+
+	.image4 {width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: darkblue;}
+
+
+
+.profile{}
+
+	.pic {
+		width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: transparent;
+	}
+
+
+
+.text {
+		width: 90%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: transparent;
+	}
+
+
+	.skill-list {
+		display: flex;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+.allicons{
+	display: flex;
+	justify-content: center;
+	}
+
+.ex {margin-bottom: 50px;}
+
+
+
+
+
+
+@media (min-width: 700px){
+
+li {
+
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color: white
+}
+
+
+p {
+text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color: white;}
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+margin-top: 50px;
+}
+
+
+h2{
+text-align: center;
+background-color: lightblue;
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+color: white;}
+
+h3 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: white;}
+
+
+video {  
+   width:100%; 
+   max-width:500px; 
+   height:auto; 
+}
+
+
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5%;
+	}
+
+	.image1 {
+	 
+		width: 45%;
+		height: auto;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 5%;
+		background-color: darkblue;
+	}
+
+	.image2 {
+		width: 45%;
+		height: auto;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: darkblue;
+	}
+
+
+	.image3 {
+		width: 45%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: darkblue;
+	}
+
+	.image4 {
+		width: 45%;
+		height: auto;
+		margin-right: 0px;
+		margin-top: 5%;
+		background-color: darkblue;}
+
+
+.video-player {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5%;
+	width: 100%;
+	}
+	
+
+	.video1 {
+	 
+		width: 45%;
+		height: auto;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 5%;
+		background-color: darkgrey;
+	}
+
+	.video2 {
+		width: 45%;
+		height: auto;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: darkgrey;
+	}
+
+
+
+	.video3 {
+		width: 45%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 0%;
+		margin-right: 5%;
+		background-color: darkgrey;
+	}
+
+	.video4 {
+		width: 45%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: darkgrey;
+	}
+
+
+
+
+
+
+		.profile{
+			display: flex;
+			justify-content: center;
+
+		}
+
+
+
+		.pic {
+			width: 300px;
+			height: auto;
+			margin-top: 0;
+			margin-left: 0;
+			margin-right: 5%;
+			background-color: transparent;
+			}
+
+
+
+		.text {
+			width: 300px;
+			height: auto;
+			background-color: transparent;
+			margin-top: 0;
+			margin-left: 0;
+			margin-right: 0;}
+
+
+		.skill-list { 
+		justify-content: center;}
+
+}
+
+
+
+@media (min-width: 900px) {
+	
+body {background: -webkit-radial-gradient(#5fb3f3, #02577c);}
+
+
+li {
+
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: white
+}
+
+
+p {
+text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: white;}
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family: 'Josefin Sans', sans-serif;
+
+color: white;
+margin-top: 50px;
+}
+
+
+h2{
+text-align: center;
+backgroun: -webkit-linear-gradient(#1177a7, #4090cd);
+background-color: transparent;
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+color: white;}
+
+h3 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: white;}
+
+
+video {  
+   width: 100%; 
+   max-width: 500px; 
+   height: auto; }
+
+
+.header{
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	
+
+}
+
+.location{
+	text-align: left;
+	width: 250px;
+}
+
+.skill {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.number {
+	text-align: right;
+	width: 250px;
+}
+
+
+
+/* fero;uih */
+
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 17px;
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	}
+
+
+
+/*
+width: 23%;
+		height: auto; 
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 2%;
+		background-color: darkgrey;*/
+
+	.image1 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 2%;
+		background-color: darkblue;
+	}
+
+	.image2 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 2%;
+		background-color: darkblue;
+	}
+
+
+	.image3 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 2%;
+		background-color: darkblue;
+	}
+
+	.image4 {
+		width: 23%;
+		height: auto; 
+		margin-right: 0;
+		margin-top: 0;
+		margin-left: 0%;
+		background-color: darkblue;
+	}
+
+
+.video-player {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	}
+	
+
+	.video1 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 2%;
+		background-color: darkgrey;
+	}
+
+	.video2 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 2%;
+		background-color: darkgrey;
+	}
+
+
+
+	.video3 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 2%;
+		background-color: darkgrey;
+	}
+
+	.video4 {
+		width: 23%;
+		height: auto; 
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		background-color: darkgrey;
+	}
+
+
+.profile{
+	display: flex;
+	justify-content: center;
+
+}
+
+.pic {
+	width: 300px;
+	height: auto; 
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 5%;
+	background-color: transparent;
+	}
+
+
+
+.text {
+	width: 300px;
+	height: auto; 
+	background-color: transparent;
+	margin-top: 20;
+	margin-left: 0;
+	margin-right: 0;
+
+	}
+
+
+.allicons {
+	display: flex;
+	margin 0 auto;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+.icon1 {
+margin-left: 0px;
+margin-right: 10px;
+
+}
+
+
+.icon2 {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.icon3 {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+
+.icon4 {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+
+.icon5 {
+margin-left: 10px;
+margin-right: 0px;
+
+}
+
+
+.icon6 {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.icon7 {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+			.skill-list {
+			justify-content: center;
+			
+			}
+
+	.ex {
+	margin-bottom: 100px;
+	}
+
+}
